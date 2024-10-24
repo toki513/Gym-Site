@@ -343,16 +343,16 @@ main{
 }
 
 footer{
-    max-width: 1260px;
-    max-height: 250px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .footerall{
-    border-bottom: 2px solid rgba(101, 14, 14, 0.25);
-    margin-bottom: 20px;
+
+    justify-content: center;
+    align-items: center;
     max-height: 250px;
-    margin-left: 350px;
-    margin-top: 40px;
+    margin: 0 auto;
     display: flex;
    
 }
@@ -376,6 +376,12 @@ footer{
 }
 .list-items>ul>li{
     gap: 30px;
+}
+.underline{
+    width: 70%;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
 }
 .lastline{
     text-align: center;
