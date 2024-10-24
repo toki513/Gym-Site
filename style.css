@@ -154,3 +154,225 @@ main{
     max-width: 180px;
     padding-bottom: 58px;
 }
+.extra-mile{
+    max-width: 1060px;
+    max-height: 370px;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.mileparts{
+    display: flex;
+    justify-content: space-around;
+}
+.mile-part{
+    max-width: 445px;
+    max-height: 290px;
+    margin-top: 30px;
+}
+.fullimg{
+    max-width: 366px ;
+    max-height: 310px;
+}
+.running{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.join-now{
+    width: 150px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(230, 83, 60, 1);
+    color: white;
+    padding: 16px 25px;
+}
+.mile-des, .teamdes{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 30px;
+}
+.mile-title, .teamtitle{
+    font-size: 2rem;
+    color: white;
+    
+}
+.meetteam{
+
+    max-height: 785px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.teamitesm{
+    text-align: center;
+}
+.teamimg{
+   
+    justify-content: space-around;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+.trainee1, .trainee2{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.trpic{
+     height: 270px;
+    width: 270px;
+    border-radius: 19px;
+    object-fit: cover;
+    
+}
+.trname{
+    color: white;
+    font-size: 1.1rem;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.trpro{
+    color: azure;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0d0d0d;
+}
+
+.bmi-chart {
+    color: white;
+}
+
+.bmi-table {
+    width: 250px;
+    border-collapse: collapse;
+}
+
+.bmi-header {
+    padding: 10px;
+    background-color: #333;
+    color: #f1f1f1;
+    font-size: 16px;
+    text-align: left;
+}
+
+.bmi-cell {
+    padding: 10px;
+    background-color: #262626;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+
+.bmi-cell:nth-child(odd) {
+    background-color: #333;
+}
+
+.bmi-calculator {
+    color: white;
+    max-width: 400px;
+}
+
+.bmi-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.bmi-description {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.select-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.calculate-btn {
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    
+    font-size: 16px;
+}
+
+.BMI{
+    color: white;
+    text-align: center;
+}
+.bmim{
+    font-size: 14px;
+}
+
+footer{
+    max-width: 1260px;
+    max-height: 250px;
+}
+.footerall{
+    border: 2px solid blue;
+ 
+    max-height: 250px;
+    margin-left: 250px;
+    margin-top: 40px;
+    display: flex;
+   
+}
+.fit-des{
+    font-size: 14px;
+    color: white;
+}
+.list-items{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fit{
+    margin-right: 100px;
+}
+.start{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: -15px;
+}
+.list-items>ul>li{
+    gap: 30px;
+}
