@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    background-color: black;
+}
+header{
+    max-width: 1440px;
+    max-height: 715px;
+    background-color: #3b3838;
+    margin-bottom: 100px;
+}
+main{
+    background-color: black;
+}
+.header-tags{
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 57px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items > li{
+    list-style: none;
+}
+.nav-items{
+    display: flex;
+    gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 465px;
+    border-radius: 18px;
+    padding-left: 0px;
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.about{
+    padding-right: 15px;
+}
+.fitness-title{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.img-flex{
+    display: flex;
+}
+.body-title{
+    font-size: 3.5rem;
+    color: white;
+}
+#shape{
+    font-family: 'Great Vibes', cursive;
+    font-style: normal;
+    font-size: 4.2rem;
+    
+}
+.text-gray{
+    font-size: 16px;
+    color: white;
+}
+.bodybutton{
+    max-width: 520px;
+    margin-right: 167px;
+}
+.button-icon{
+    max-width: 465px;
+    max-height: 54px;
+    color: white;
+    display: flex;
+   
+}
+.join-club{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 13px 20px;
+    color: white;
+    border-radius: 42px;
+    font-weight: 600;
+    border: none;
+    margin-right: 20px;
+}
+.download{
+    padding: 13px 20px;
+    color: white;
+    border-radius: 42px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(54, 50, 50);
+}
+.Images2{
+    /* width: 100%; */
+}
+.habbit-section{
+    max-width: 1044px;
+    max-height: 460px;
+    margin: 0 auto;
+
+}
+.habit-images{
+    margin-top: 30px;
+}
+.habit-both{
+    color: white;
+    text-align: center;
+
+}
+.habit-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.habit-des{
+    font-size: 14px;
+}
+.habit-img{
+   max-width: 180px;
+   max-height: 180px;
+    border-radius: 100px;
+    max-width: 180px;
+    justify-content: space;
+    gap: 10px;
+}
+.habit-all{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.img-title{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    max-width: 180px;
+}
+.img-des{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    max-width: 180px;
+    padding-bottom: 58px;
+}
