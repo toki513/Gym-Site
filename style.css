@@ -345,12 +345,13 @@ main{
 footer{
     max-width: 1260px;
     max-height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .footerall{
-    border: 2px solid blue;
- 
+    border-bottom: 2px solid rgba(101, 14, 14, 0.25);
+    margin-bottom: 20px;
     max-height: 250px;
-    margin-left: 250px;
+    margin-left: 350px;
     margin-top: 40px;
     display: flex;
    
@@ -375,4 +376,8 @@ footer{
 }
 .list-items>ul>li{
     gap: 30px;
+}
+.lastline{
+    text-align: center;
+    color: white;
 }
